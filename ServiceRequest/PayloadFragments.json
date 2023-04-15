@@ -1,0 +1,96 @@
+{
+  "Reference": {
+    "reference": "Patient/123",
+    "type": "http://example.org/fhir/StructureDefinition/custom-reference",
+    "identifier": [
+      {
+        "use": "official",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0203",
+              "version": "2.9",
+              "code": "MR",
+              "display": "Medical Record Number",
+              "userSelected": false
+            }
+          ],
+          "text": "Medical Record Number"
+        },
+        "system": "urn:oid:1.2.3.4.5",
+        "value": "ABC123",
+        "period": {
+          "start": "2022-01-01T00:00:00Z",
+          "end": "2022-12-31T23:59:59Z"
+        },
+        "assigner": {
+          "reference": "Organization/567",
+          "display": "Acme Healthcare"
+        }
+      }
+    ],
+    "display": "John Smith"
+  },
+
+
+
+  "codableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.67",
+        "code": "43339-1",
+        "display": "Hemoglobin A1c/Hemoglobin.total in Blood",
+        "userSelected": false
+      }
+    ],
+    "text": "Hemoglobin A1c"
+  },
+
+
+  "coding": {
+    "system": "http://snomed.info/sct",
+    "version": "2.3.1",
+    "code": "123456",
+    "display": "Fracture of the femur",
+    "userSelected": false
+  },
+
+
+  "period": {
+    "start": "2021-01-01T00:00:00.000Z",
+    "end": "2021-12-31T23:59:59.000Z"
+  },
+
+
+  "identifier": {
+    "use": "official",
+    "type": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0203",
+          "version": "2.3.1",
+          "code": "MR",
+          "display": "Medical Record Number",
+          "userSelected": false
+        }
+      ],
+      "text": "Medical Record Number"
+    },
+    "system": "urn:oid:1.2.3.4.5.6.7",
+    "value": "12345",
+    "period": {
+      "start": "2019-01-01T00:00:00.000Z",
+      "end": "2020-01-01T00:00:00.000Z"
+    },
+    "assigner": {
+      "reference": "Organization/567",
+      "display": "ABC Hospital"
+    }
+  }
+
+
+
+
+
+}
